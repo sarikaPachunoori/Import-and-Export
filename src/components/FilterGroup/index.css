@@ -1,0 +1,78 @@
+.filter-main-container {
+  display: flex;
+  flex-direction: row;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-height: 100vh;
+  margin: 20px;
+}
+.profile-img {
+  height: 40vh;
+  width: 30%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+.line {
+  border: 1px solid #64748b;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.type-of-empl {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.left-list-cont {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.list-item-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-left: 8px;
+  font-size: 15px;
+}
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+
+.radio {
+  height: 18px;
+  width: 18px;
+  padding-bottom: 5px;
+}
+.radio-label {
+  padding-top: 4px;
+}
+.retry-butn {
+  height: 38px;
+  width: 90px;
+  font-size: 15px;
+  background-color: #4f46e5;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 5px;
+}

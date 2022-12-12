@@ -1,0 +1,19 @@
+.similar-item-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #272727;
+  width: 30%;
+  border-radius: 20px;
+}
+.similar-title {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.similar-desc {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #f1f5f9;
+}

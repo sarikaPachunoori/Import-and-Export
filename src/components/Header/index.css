@@ -1,0 +1,44 @@
+.header-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  list-style-type: none;
+  margin: 0px;
+}
+.home-logo {
+  height: 50px;
+}
+.home-jobs-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.header-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 500;
+}
+.logout-btn {
+  height: 35px;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 130px;
+  cursor: pointer;
+  outline: none;
+}
